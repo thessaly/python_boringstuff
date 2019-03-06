@@ -1,0 +1,12 @@
+#! /usr/bin/python3
+# Line above indicates this script must be run by Python
+
+
+# To run your Python programs, save your .py file to your home folder.
+# Then, change the .py file’s permissions to make it executable by running
+# chmod +x pythonScript.py. File permissions are beyond the scope of this book,
+# but you will need to run this command on your Python file if you want to
+# run the program from the Terminal window. Once you do so, you will be
+# able to run your script whenever you want by opening a Terminal window
+# and entering ./pythonScript.py. The shebang line at the top of the script will
+# tell the operating system where to locate the Python interpreter.
