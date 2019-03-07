@@ -151,7 +151,7 @@ agents_regex.sub(r'\1****', 'Agent Alice told Agent Carol that Agent Eve knew Ag
 
 # Manage complex regexs: pass re.verbose as second argument of re.compile, ignores # and ' ', also using multiple lines for readability
 
-phone_regex = re.compile(r'((\d{3}|\(\d{3}\))?(\s|-|\.)?\d{3}(\s|-|\.)\d{4}
+phone_Regex = re.compile(r'((\d{3}|\(\d{3}\))?(\s|-|\.)?\d{3}(\s|-|\.)\d{4}
 (\s*(ext|x|ext.)\s*\d{2,5})?)')
 
 phone_regex = re.compile(r'''(
