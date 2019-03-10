@@ -50,6 +50,6 @@ for quiz_num in range(35):
                 quiz_file.write('%s. %s\n' % ('ABCD'[i], answer_options[i]))
                 quiz_file.write('\n')
             # Write the answer key to a file.
-            with open('capitals_quiz_answer_%s.txt' % (quiz_num + 1), 'w') as answer_file:
+            with open('capitals_quiz_answer_%s.txt' % (quiz_num + 1), 'a') as answer_file:
                 answer_file.write('%s. %s\n' % (question_num + 1,'ABCD'[answer_options.index(correct_answer)]))
                 answer_file.close()
