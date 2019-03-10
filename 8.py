@@ -68,7 +68,7 @@ os.path.isdir(path) # True if it's a folder
 
 os.path.exists('/home/mnt')
 
-## File reading-writing process
+##################### FILES ############
 
 # Creates file object, by default in reading mode
 test = open('/home/saynomore/Documentos/testing.md')
